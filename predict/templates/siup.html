@@ -1,0 +1,99 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        {% csrf_token %}
+        <div><p>Username</p></div><br>
+        <div>{{form.username}}</div><br>
+        <div><p>Address</p></div><br>
+        <div>{{form.address}}</div><br>
+        <div><p>Gender</p></div><br>
+        <div>{{form.gender}}</div><br>
+        <div><p>Phone Number</p></div><br>
+        <div>{{form.phone_number}}</div><br>
+        <div><p>Passport Office</p></div><br>
+        <div>{{form.passport_ofice}}</div><br>
+        <div><p>Password</p></div><br>
+        <div>{{form.password}}</div><br>
+        
+        <input type="submit" value="SIGNUP">
+    </form>
+</body>
+</html> -->
+
+
+
+<!--
+Author: Colorlib
+Author URL: https://colorlib.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> User SignUp Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script>
+        type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+    </script>
+    <!-- Custom Theme files -->
+    <link href="../static/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- //Custom Theme files -->
+    <!-- web font -->
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+    <!-- //web font -->
+</head>
+
+<body>
+    <!-- main -->
+    <div class="main-w3layouts wrapper">
+        <h1>User</h1>
+        <div class="main-agileinfo">
+            <div class="agileits-top">
+                <form action="#" method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <div>
+                        <p>Passport Number</p>
+                    </div><br>
+                    <div>{{frm.psprt_no}}</div><br>
+                    <div>
+                        <p>User Name</p>
+                    </div><br>
+                    <div>{{frm.username}}</div><br>
+                    <div>
+                        <p>Password</p>
+                    </div><br>
+                    <div>{{frm.password}}</div><br>     
+                    <div><input type="submit" value="SignUp">
+                    </div>
+                </form>
+             </div>
+        </div>
+            <ul class="colorlib-bubbles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+    </div>
+    </body>
+</html>
+                
+           
+   

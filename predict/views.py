@@ -20,6 +20,9 @@ def user(request):
 def userview(request):
     return render(request, "userview.html")
 
+def aboutview(request):
+    return render(request, "about.html")
+
 
 
 

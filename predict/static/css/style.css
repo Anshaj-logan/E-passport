@@ -1668,5 +1668,16 @@ padding-bottom: 20px;
  .copyright a:hover {
      color: #f4b328 ;
 }
+
+.text-bg1 {text-align: left;}
+.text-bg1 h2 {
+    color: #000;
+    padding-top: 50px;
+   font-size: 20px;
+   line-height: 45px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
 /** end footer **/
 /*--------------------------------------------------------------------- ener page css ---------------------------------------------------------------------*/

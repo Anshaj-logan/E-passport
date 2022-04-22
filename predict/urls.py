@@ -11,6 +11,7 @@ urlpatterns = [
     path('siup.html',views.siup,name='siup'),
     path('slog.html',views.sign,name='sign'),
     path('userview.html',views.userview,name='userview'),
+    path('about.html',views.aboutview,name='aboutview'),
 
     
 ]

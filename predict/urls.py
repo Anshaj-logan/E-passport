@@ -12,6 +12,8 @@ urlpatterns = [
     path('slog.html',views.sign,name='sign'),
     path('userview.html',views.userview,name='userview'),
     path('about.html',views.aboutview,name='aboutview'),
+    path('simple_function', views.simple_function,name='simple_function'),
+    path('verify.html',views.verify,name='verify'),
 
     
 ]

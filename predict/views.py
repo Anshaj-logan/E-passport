@@ -2,6 +2,9 @@ from django.shortcuts import render,redirect
 from predict.forms import UserForm, UserForm1
 
 
+import os
+
+
 from django.contrib.auth import authenticate
 from django.contrib.auth import login as auth_login
 from django.contrib import messages
@@ -22,6 +25,13 @@ def userview(request):
 
 def aboutview(request):
     return render(request, "about.html")
+
+def verify(request):
+    return render(request, "verify.html")
+
+def simple_function(request):
+    os.system("start cmd")
+    return render(request,'verify.html')
 
 
 
